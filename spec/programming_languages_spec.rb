@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pry'
 
 describe '#reformat_languages' do
 
@@ -31,7 +32,7 @@ describe '#reformat_languages' do
         :javascript => {
           :type => "interpreted"
         }
-     
+
       }
     }
   }
